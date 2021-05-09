@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AB57385264882A700336EAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB57384264882A700336EAF /* ViewController.swift */; };
+		3AB57387264882C600336EAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB57386264882C600336EAF /* AppDelegate.swift */; };
 		59583F7B6A214BB73708C301 /* libPods-DJIRemoteLoggerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9948A234A5BCF20263B6D48F /* libPods-DJIRemoteLoggerDemo.a */; };
-		A4DDBA001C0F445800B0D2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DDB9FF1C0F445800B0D2D5 /* main.m */; };
-		A4DDBA031C0F445800B0D2D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DDBA021C0F445800B0D2D5 /* AppDelegate.m */; };
-		A4DDBA061C0F445800B0D2D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4DDBA051C0F445800B0D2D5 /* ViewController.m */; };
 		A4DDBA091C0F445800B0D2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DDBA071C0F445800B0D2D5 /* Main.storyboard */; };
 		A4DDBA0B1C0F445800B0D2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4DDBA0A1C0F445800B0D2D5 /* Assets.xcassets */; };
 		A4DDBA0E1C0F445800B0D2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4DDBA0C1C0F445800B0D2D5 /* LaunchScreen.storyboard */; };
@@ -41,14 +40,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3AB57384264882A700336EAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AB57386264882C600336EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B134ED4AAA75E2CFB953E6C /* Pods-DJIRemoteLoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJIRemoteLoggerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJIRemoteLoggerDemo/Pods-DJIRemoteLoggerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9948A234A5BCF20263B6D48F /* libPods-DJIRemoteLoggerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJIRemoteLoggerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4DDB9FB1C0F445800B0D2D5 /* DJIRemoteLoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJIRemoteLoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4DDB9FF1C0F445800B0D2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A4DDBA011C0F445800B0D2D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A4DDBA021C0F445800B0D2D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4DDBA041C0F445800B0D2D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4DDBA051C0F445800B0D2D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4DDBA081C0F445800B0D2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4DDBA0A1C0F445800B0D2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4DDBA0D1C0F445800B0D2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,25 +97,14 @@
 		A4DDB9FD1C0F445800B0D2D5 /* DJIRemoteLoggerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A4DDBA011C0F445800B0D2D5 /* AppDelegate.h */,
-				A4DDBA021C0F445800B0D2D5 /* AppDelegate.m */,
-				A4DDBA041C0F445800B0D2D5 /* ViewController.h */,
-				A4DDBA051C0F445800B0D2D5 /* ViewController.m */,
+				3AB57386264882C600336EAF /* AppDelegate.swift */,
+				3AB57384264882A700336EAF /* ViewController.swift */,
 				A4DDBA071C0F445800B0D2D5 /* Main.storyboard */,
 				A4DDBA0A1C0F445800B0D2D5 /* Assets.xcassets */,
 				A4DDBA0C1C0F445800B0D2D5 /* LaunchScreen.storyboard */,
-				A4DDB9FE1C0F445800B0D2D5 /* Supporting Files */,
+				A4DDBA0F1C0F445800B0D2D5 /* Info.plist */,
 			);
 			path = DJIRemoteLoggerDemo;
-			sourceTree = "<group>";
-		};
-		A4DDB9FE1C0F445800B0D2D5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A4DDBA0F1C0F445800B0D2D5 /* Info.plist */,
-				A4DDB9FF1C0F445800B0D2D5 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		A4DDBA171C0F445800B0D2D5 /* DJIRemoteLoggerDemoTests */ = {
@@ -161,7 +146,6 @@
 				A4DDB9F91C0F445800B0D2D5 /* Resources */,
 				A4DDBA331C0F4A8400B0D2D5 /* Embed Frameworks */,
 				454A6D2C06AFE0ACF1FC8B79 /* [CP] Embed Pods Frameworks */,
-				0D8BF5072BA3AADA0BF59453 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,7 +185,8 @@
 				TargetAttributes = {
 					A4DDB9FA1C0F445800B0D2D5 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 7UL3LRJL93;
+						DevelopmentTeam = R725LZS4G8;
+						LastSwiftMigration = 1250;
 					};
 					A4DDBA131C0F445800B0D2D5 = {
 						CreatedOnToolsVersion = 7.1;
@@ -214,6 +199,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -249,28 +235,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D8BF5072BA3AADA0BF59453 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJIRemoteLoggerDemo/Pods-DJIRemoteLoggerDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		454A6D2C06AFE0ACF1FC8B79 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DJIRemoteLoggerDemo/Pods-DJIRemoteLoggerDemo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DJIRemoteLoggerDemo/Pods-DJIRemoteLoggerDemo-frameworks.sh",
 				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -279,7 +250,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJIRemoteLoggerDemo/Pods-DJIRemoteLoggerDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DJIRemoteLoggerDemo/Pods-DJIRemoteLoggerDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C42BE4910C12BCA1CC8852F8 /* [CP] Check Pods Manifest.lock */ = {
@@ -297,7 +268,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -307,9 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4DDBA061C0F445800B0D2D5 /* ViewController.m in Sources */,
-				A4DDBA031C0F445800B0D2D5 /* AppDelegate.m in Sources */,
-				A4DDBA001C0F445800B0D2D5 /* main.m in Sources */,
+				3AB57385264882A700336EAF /* ViewController.swift in Sources */,
+				3AB57387264882C600336EAF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,14 +408,16 @@
 			baseConfigurationReference = 6B134ED4AAA75E2CFB953E6C /* Pods-DJIRemoteLoggerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7UL3LRJL93;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = R725LZS4G8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DJIRemoteLoggerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dji.RemoteLoggerDemo1;
+				PRODUCT_BUNDLE_IDENTIFIER = DJIDemoSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = "arm64 arm64e armv7s";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -454,20 +426,22 @@
 			baseConfigurationReference = F30502EC4DC6703BAB1116DD /* Pods-DJIRemoteLoggerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7UL3LRJL93;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = R725LZS4G8;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DJIRemoteLoggerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dji.RemoteLoggerDemo1;
+				PRODUCT_BUNDLE_IDENTIFIER = DJIDemoSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = "arm64 arm64e armv7s";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		A4DDBA211C0F445800B0D2D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DJIRemoteLoggerDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -480,6 +454,7 @@
 		A4DDBA221C0F445800B0D2D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = DJIRemoteLoggerDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
