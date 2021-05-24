@@ -1,8 +1,9 @@
 //
 //  AppDelegate.swift
-//  PlaybackDemo
+//  DJIRemoteLoggerDemo
 //
 //  Created by Samuel Scherer on 5/9/21
+//  Copyright © 2021 RIIS. All rights reserved.
 //
 
 import UIKit
