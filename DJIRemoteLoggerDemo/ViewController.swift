@@ -26,7 +26,7 @@ class ViewController: UIViewController, DJISDKManagerDelegate {
     
     //MARK: - DJISDKManager Delegate Method
     func appRegisteredWithError(_ error: Error?) {
-        var message = "Register App Successed!"
+        var message = "Register App Succeeded!"
         if let error = error {
             message = "Register App Failed! Please enter your App Key and check the network. Error: \(error.localizedDescription)"
         } else {
@@ -47,7 +47,7 @@ class ViewController: UIViewController, DJISDKManagerDelegate {
         }
     }
 
-    //#MARK: - IBAction Method
+    //MARK: - IBAction Method
     @IBAction func logSDKVersionButtonAction(_ sender: Any) {
         DJIRemoteLogger.log(with: .debug, file: #file, function: #function, line: #line, string: DJISDKManager.sdkVersion())
     }
